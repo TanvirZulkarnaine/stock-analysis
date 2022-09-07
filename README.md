@@ -4,9 +4,11 @@
 # stock-analysis
 [This is the link to my excel file!](/VBA_Challenge.xlsm)
 ## Overview of Project
-I created a index variable for ticker that allows me to access element in the arrays that I have created and add data to it accordingly using for loops. I created three additional arrays: tickerVolumes, tickerStartingPrices, and tickerEndingPrices of size 12. I set the values of every element of tickerVolumes array to zero. I've created another for loop that loops through the entire data sheet and updates tickerVolumes, tickerStartingPrices, and tickerEndingPrices with the use of the index I initially created. Finally, I activate my stock analysis sheet and display the analysis of the data there. 
 ### Purpose
-In module 2 lessons, I created a code for Steve so that he can run analysis on his 2017 and 2018 stock data. The code works perfectly. However, if Steve were to collect an enormous amount of data, such as the data of the entire stock market over the past few years, this code will run the analysis but take too long. Thus, I was tasked to refactor my code and improve its efficiency by lowering the runtime.  
+In module 2 lessons, I created a script for Steve so that he can run analysis on his 2017 and 2018 stock data. The code works perfectly. However, if Steve were to collect an enormous amount of data, such as the data of the entire stock market over the past few years, this code will run the analysis but take too long. Thus, I was tasked to refactor my code and improve its efficiency by lowering the runtime.
+
+I created a index variable for ticker (tickerIndex) that allows me to access element in the arrays that I have created and add data to it accordingly using for loops. I created three additional arrays: tickerVolumes, tickerStartingPrices, and tickerEndingPrices of size 12. I set the values of every element of tickerVolumes array to zero. I've created another for loop that loops through the entire data sheet and updates tickerVolumes, tickerStartingPrices, and tickerEndingPrices with the use of the index I initially created. Finally, I activate my stock analysis sheet and display the analysis of the data there. 
+ 
 
 ## Results
 ![VBA_Challenge_2017](Resource/VBA_Challenge_2017.png)
