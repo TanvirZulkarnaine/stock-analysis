@@ -2,7 +2,7 @@
 # Name: Tanvir Rahman
 
 # stock-analysis
-[This is the link to my excel file!](/green_stocks.xlsm)
+[This is the link to my excel file!](/VBA_Challenge.xlsm)
 ## Overview of Project
 I created a index variable for ticker that allows me to access element in the arrays that I have created and add data to it accordingly using for loops. I created three additional arrays: tickerVolumes, tickerStartingPrices, and tickerEndingPrices of size 12. I set the values of every element of tickerVolumes array to zero. I've created another for loop that loops through the entire data sheet and updates tickerVolumes, tickerStartingPrices, and tickerEndingPrices with the use of the index I initially created. Finally, I activate my stock analysis sheet and display the analysis of the data there. 
 ### Purpose
