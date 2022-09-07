@@ -10,9 +10,9 @@ In module 2 lessons, I created a code for Steve so that he can run analysis on h
 
 ## Results
     ---
-    ![VBA_Challenge_2017](/stock-analysis/Resource/VBA_Challenge_2017.png)
+    ![VBA_Challenge_2017](/Resource/VBA_Challenge_2017.png)
     ---
-    ![VBA_Challenge_2018](/stock-analysis/Resource/VBA_Challenge_2018.png)
+    ![VBA_Challenge_2018](/Resource/VBA_Challenge_2018.png)
     ---
 According to the analysis done on both years, stocks in 2017 performed positively on all except "TERP". However, the following year, 2018, only two stocks had a positive performance, namely, "ENPH", and "RUN". I also noticed that there was increase in the total volume of trade in 2018 on the stocks that performed very well in 2017.
 Run time of the refractored script was improved by almost 10 times (10 times faster!) compared with the original script for both 2017, and 2018. This is due to the fact that we only had to create space for three arrays on the ram, compared to the original script where we had to create space in ram for every single data we looped over. Also, refractored script was faster because we only had to loop through the main data only once, whereas for the original data, we looped through the main data 11 times for 11 tickers. 
